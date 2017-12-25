@@ -7,11 +7,10 @@
     <link rel="stylesheet" href="style.css" type="text/css">
   </head>
   <body>
-
     <header class="main_header">
       <div class="container">
         <div class="logo">
-          <a class="link main_page" href="#"><img src="img/logo.png" alt="Барбершоп Бородинский"></a>
+          <a class="link main_page" href="#"><img class="img" src="img/logo.png" alt="Барбершоп Бородинский"></a>
         </div>
         <nav class="main_navigation">
           <ul class="list">
@@ -45,7 +44,7 @@
           </div>
           <span class="location_place">Главная</span>
           <span class="location_place">Магазин</span>
-          <span class="location_place">Cредства для ухода</span>
+          <span class="location_place active">Cредства для ухода</span>
         </form>
 
       </div>
@@ -54,28 +53,28 @@
           <section class="manufacturer">
               <h3 class="headline">производители:</h3>
             <div class="wrap labels_manufacturer">
-              
-              <label for="baxter" class="label"><input class="checkbox" type="checkbox" id="baxter" name="baxter_of_california" checked >
+              <input class="checkbox" type="checkbox" id="baxter" name="baxter_of_california" checked >
+              <label for="baxter" class="label">
                 BAXTER OF CALIFORNIA 
               </label>
-              
-              <label for="natty" class="label"><input class="checkbox" type="checkbox" id="natty" name="mr_natty" >
+              <input class="checkbox" type="checkbox" id="natty" name="mr_natty" >
+              <label for="natty" class="label">
                 MR NATTY 
               </label>
-              
-              <label for="suavecito" class="label"><input class="checkbox" type="checkbox" id="suavecito" name="suavecito" checked >
+              <input class="checkbox" type="checkbox" id="suavecito" name="suavecito" checked >
+              <label for="suavecito" class="label">
                 SUAVECITO
               </label>
-              
-              <label for="malin" class="label"><input class="checkbox" type="checkbox" id="malin" name="malin_goetz" >
+              <input class="checkbox" type="checkbox" id="malin" name="malin_goetz" >
+              <label for="malin" class="label">
                 MALIN+GOETZ
               </label>
-              
-              <label for="murray" class="label"><input class="checkbox" id="murray" type="checkbox" name="murray's" >
+              <input class="checkbox" id="murray" type="checkbox" name="murray's" >
+              <label for="murray" class="label">
                 MURRAY'S
               </label>
-             
-              <label for="american" class="label"> <input class="checkbox" type="checkbox" id="american" name="american_crew" >
+              <input class="checkbox" type="checkbox" id="american" name="american_crew" >
+              <label for="american" class="label"> 
                 AMERICAN CREW
               </label>
             </div>
@@ -83,14 +82,17 @@
           <section class="groups_items">
             <h3 class="headline">группы товаров:</h3>
             <div class="wrap groups">
-              <label class="label">
-                бритвенные принадлежности<input type="radio" name="groups_items" value="shaving_accessories">
+              <input type="radio" id="shaving_accessories" name="groups_items" value="shaving_accessories">
+              <label for="shaving_accessories" class="label">
+                бритвенные принадлежности
               </label>
-              <label class="label">
-                средства для ухода<input type="radio" name="groups_items" value="care_products" checked >
+              <input type="radio" id="care_products" name="groups_items" value="care_products" checked >
+              <label for="care_products" class="label">
+                средства для ухода
               </label>
-              <label class="label">
-                аксессуары<input type="radio" name="groups_items" value="accessories">
+              <input type="radio" id="accessories" name="groups_items" value="accessories">
+              <label for="accessories" class="label">
+                аксессуары
               </label>
               <button class="btn submit">показать</button>
             </div>
@@ -100,7 +102,7 @@
         </form>
         <section class="items">
           <article class="item">
-            <img src="img/Layer 38.jpg" >
+            <img class="img" src="img/Layer 38.jpg" >
             <b class="text_item name">Набор для путешествий</b><br> 
             <b class="text_item category">«BAXTER OF CALIFORNIA»</b>
             <div class="price">
@@ -113,7 +115,7 @@
             </div>
           </article>
           <article class="item">
-            <img src="img/Layer 30.jpg" >
+            <img class="img" src="img/Layer 30.jpg" >
             <b class="text_item name">Увлажняющий кондиционер</b><br> 
             <b class="text_item category">«BAXTER OF CALIFORNIA»</b>
             <div class="price">
@@ -126,7 +128,7 @@
             </div>
           </article>
           <article class="item">
-            <img src="img/Layer 39.jpg" >
+            <img class="img" src="img/Layer 39.jpg" >
             <b class="text_item name">Гель для волос</b><br> 
             <b class="text_item category">«SUAVECHITO»</b><br>
             <div class="price">
@@ -139,7 +141,7 @@
             </div>
           </article>
           <article class="item">
-            <img src="img/Layer 32.jpg" >
+            <img class="img" src="img/Layer 32.jpg" >
             <b class="text_item name">Глина для уладки волос</b><br> 
             <b class="text_item category">«AMERICAN CREW»</b>
             <div class="price">
@@ -152,7 +154,7 @@
             </div>
           </article>
           <article class="item">
-            <img src="img/Layer 33.jpg" >
+            <img class="img" src="img/Layer 33.jpg" >
             <b class="text_item name">Гель для волос</b><br> 
             <b class="text_item category">«AMERICAN CREW»</b>
             <div class="price">
@@ -165,7 +167,7 @@
             </div>
           </article>
           <article class="item">
-            <img src="img/Layer 42.jpg" >
+            <img class="img" src="img/Layer 42.jpg" >
             <b class="text_item name">Набор для бритья</b><br> 
             <b class="text_item category">«BAXTER OF CALIFORNIA»</b>
             <div class="price">
